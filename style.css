@@ -1,0 +1,97 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+}
+body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #0d1a2d;
+}
+
+
+.parent{
+    width: 20%;
+    background-color: #15273f;
+    padding-top: 30px;
+    padding-left: 32px;
+    color: #fff;
+    border-radius: 3%;
+}
+.parent .img img{
+    width: 220px;
+    height: 220px;
+    border-radius: 5%; 
+    object-fit: cover;
+}
+.parent .Equilibrium h5{
+    font-size: 19px;
+    margin-top: 20px;
+}
+.parent .Equilibrium p{
+    font-size: 15px;
+    margin-top: -19px;
+    color: #6b7f9b;
+}
+.parent .eth .par-1 img{
+    width: 17%;
+    height: 19px;
+}
+.parent .eth {
+    display: flex;
+     margin-top: 27px;
+}
+.parent .eth .par-1{
+    display: flex;
+}
+.parent .eth .par-1 p{
+    line-height: 0px;
+    margin-left: 5px;
+    color: #3bd1d1;
+    margin-top: 12px;
+}
+.parent .eth .par-2{
+    display: flex;
+    justify-content: end;
+    margin-left: 35px;
+}
+.parent .eth .par-2 img{
+    width: 17%;
+    height: 20px;
+}
+.parent .eth .par-2 p{
+    line-height: 0;
+    margin-top: 12px;
+    margin-left: 4px;
+    color: #87abd6;
+}
+.parent .hr{
+    border-bottom: 1px solid;
+    margin-right: 26px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: #6b7f9b;
+    border-radius: 11%;
+}
+.parent .end{
+    display: flex;
+    margin-bottom: 19px;
+}
+.parent .end img{
+    width: 15%;
+    height: 50%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.parent .end p{
+    margin-top: 10px;
+    margin-left: 9px;
+    color: #87abd6;
+}
+.parent .end p span{
+    color: #fff;
+}
